@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h1>Send an Omikuji!</h1>
-	<form action="/omikuji/show">
+	<form method="post" action="/process/omikuji">
 		<p>Pick any number from 5 to 25</p>
 		<input type="number" name="num" />
 		<p>Enter the name of any city</p>
